@@ -1,0 +1,22 @@
+{
+  "name": "gediazgon",
+  "version": "1.0.0",
+  "description": "rps multiplayer with jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bliff182/gediazgon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bliff182/gediazgon/issues"
+  },
+  "homepage": "https://github.com/bliff182/gediazgon#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
