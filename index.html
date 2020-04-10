@@ -15,6 +15,59 @@
     <title>Rock, Paper, Scissors - Multiplayer!</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Rock, Paper, Scissors - Multiplayer!</h1>
+        <!-- <p class="lead">
+          This is an online multiplayer where two users can challenge each other
+          in Rock Paper Scissors! Just enter your name, wait for the next player
+          to join, and start playing! It's as simple as that!
+        </p>
+        <hr class="my-4" />
+        <p>This page was built using jQuery, Bootstrap, and Firebase.</p> -->
+      </div>
+
+      <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm" id="player-input">
+          <form id="name-submit">
+            <div class="form-group">
+              <label for="display-name">Name</label>
+              <input type="text" class="form-control" id="display-name" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-sm"></div>
+      </div>
+
+      <div id="game">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="players" id="player1">Waiting for Player 1</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 id="gameplay">Gameplay goes here.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="players" id="player2">Waiting for Player 2</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
